@@ -1,0 +1,242 @@
+body {
+    background-color: rgb(242, 240, 240);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    background-color: #c4b88248;
+    width: 850px;
+    border: 1px solid #000000;
+    margin: 10px auto;
+    
+  
+}
+
+#encabezado{
+    background-color: #807bb5;
+    height: 50px;
+    border: 1px solid #000000;
+    
+    text-align: center;
+    font-size: 40px;
+}
+
+#encabezado h1{
+   color:#fff;
+}
+
+#barra-navegacion{
+    height: 30px;
+    padding: 10px 5px;
+}
+
+#li{
+    display: inline;
+    border: 1px solid #000000;
+    padding: 10px 70px;
+    background: #6f6c88;
+   
+}
+li a{
+    color: white; 
+    padding: 15px 15px;
+    display: block;
+    margin-top: -25px;   
+}
+li a:hover{
+    background-color: rgb(167, 161, 161); 
+    color: #000000;
+}
+#izquierdo{
+    background-color: #f4c38b;
+    width: 600px;
+    border: 1px solid #000000;
+    margin: 5px;
+    height: 460px;
+    float: left;
+    padding: 10px;
+}
+#derecho{
+    background-color: #f4b28b;
+    width: 180px;
+    border: 1px solid #000000;
+    margin: 5px;
+    height: 460px;
+    padding: 5px;
+    float: right;
+}
+#pasa-tiempos{
+    width: 600px;
+    background-color: #b6bc83;
+    border: 1px solid #000000;
+    margin: auto;
+     
+}
+
+#tabla-paises{
+    background-color: #d4dc89;
+    width: 600px;
+    border: 1px solid #060606;
+    margin: auto;
+    
+}
+#tabla-paises table{
+    padding: 10px;
+   width: 600px; 
+}
+
+.limpiar{
+    clear: both;
+}
+#footer{
+    background-color: #b34b42;
+    height: 25px;
+    border: 1px solid #000000;
+    margin: 10px;
+    padding: 10px;
+    color: #f0f0f0;
+}
+
+
+/* Cambiar el color de fuente y el tamaño del encabezado */
+h1 {
+    color: #333; /* Color de fuente (en este caso, gris oscuro) */
+    font-size: 24px; /* Tamaño de fuente (en este caso, 24px) */
+}
+
+/* Estilo para la caja */
+.caja {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333; /* Borde de 2 píxeles de ancho y color gris oscuro */
+    background-color: lightblue; /* Fondo de la caja de color celeste */
+    text-align: center; /* Centra el contenido en la caja */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el slider */
+#slider {
+    width: 80%;
+}
+
+/* Estilo para el texto en el centro de la caja */
+.texto {
+    font-size: 20px;
+    color: #333; /* Color de fuente (en este caso, gris oscuro) */
+}
+
+
+/* Estilo para la barra de navegación */
+.barra-navegacion {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+}
+
+/* Estilo para la lista no ordenada y sus elementos */
+.barra-navegacion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.barra-navegacion li {
+    margin: 0 10px;
+}
+
+/* Estilo para los enlaces internos */
+.barra-navegacion a {
+    color: #fff; /* Color de fuente de los enlaces */
+    text-decoration: none;
+}
+
+/* Estilo para los enlaces cuando se les hace clic */
+.barra-navegacion a:active {
+    color: #ff0000; /* Cambia el color de fuente al hacer clic (en este caso, rojo) */
+}
+
+
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para las imágenes en la galería */
+.imagen {
+    max-width: 100px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Estilos para la ventana emergente */
+.imagen-emergente {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.imagen-emergente img {
+    max-width: 80%;
+    max-height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
